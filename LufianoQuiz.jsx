@@ -5,7 +5,7 @@ import React, { useState, useEffect, useRef } from "react";
 // ═══════════════════════════════════════════════════════════════════════════════
 
 const MANAGER_PIN = "2580";
-const QUIZ_TIME_SECONDS = 12 * 60; // 12 minutes
+const QUIZ_TIME_SECONDS = 20 * 60; // 20 minutes
 
 const STORES = [
   "Lufiano – Menlyn Maine Central Square",
@@ -916,7 +916,7 @@ export default function LufianoQuiz() {
                 Lufiano <em style={{ color: "#C8A96E" }}>Knowledge</em><br />Assessment
               </h1>
               <p style={{ color: "#5A5248", fontSize: 14, lineHeight: 1.7, fontFamily: "sans-serif", margin: "14px 0 0", maxWidth: 430 }}>
-                15 topics · 20 questions each (10 multiple-choice + 10 written) · 12-minute limit per topic.<br />
+                15 topics · 20 questions each (10 multiple-choice + 10 written) · 20-minute limit per topic.<br />
                 <span style={{ color: "#8A8078" }}>One attempt per topic.</span> {fullName ? <span style={{ color: "#C8A96E" }}>Welcome back, {fullName.split(" ")[0]}.</span> : "Enter your name on the next screen before starting."}
               </p>
             </div>
@@ -999,7 +999,7 @@ export default function LufianoQuiz() {
           <h2 style={{ fontSize: 30, fontWeight: 400, color: "#F0EAE0", margin: "0 0 8px", letterSpacing: "-0.02em" }}>Before you begin</h2>
           <p style={{ color: "#5A5248", fontSize: 13, fontFamily: "sans-serif", lineHeight: 1.65, margin: "0 0 20px" }}>
             Please enter your details. Your results will be saved and accessible to your manager.<br />
-            <strong style={{ color: "#E0B45A" }}>⏱ 12-minute time limit applies.</strong>
+            <strong style={{ color: "#E0B45A" }}>⏱ 20-minute time limit applies.</strong>
           </p>
           <div style={{ background: "rgba(224,123,123,0.08)", border: "1px solid rgba(224,123,123,0.25)", borderRadius: 10, padding: "12px 16px", marginBottom: 32 }}>
             <div style={{ fontSize: 12, color: "#E09898", fontFamily: "sans-serif", lineHeight: 1.6 }}>
