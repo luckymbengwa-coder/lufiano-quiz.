@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef } from "react";
 // LUFIANO KNOWLEDGE ASSESSMENT — v4 (short-answer + concept grading + one attempt)
 // ═══════════════════════════════════════════════════════════════════════════════
 
-const MANAGER_PIN = "2580";
+const MANAGER_PIN = "8007";
 const QUIZ_TIME_SECONDS = 20 * 60; // 20 minutes
 
 const STORES = [
