@@ -15,7 +15,7 @@ const STORES = [
   "Lufiano – Boardwalk",
   "Lufiano – Hemmingways",
   "Lufiano – Mimosa Mall",
-  "Nik'Ana",
+  "Lufiano - Riverside",
   "Online / Head Office",
 ];
 
